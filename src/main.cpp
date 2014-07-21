@@ -31,7 +31,7 @@ int main(int, char const**)
         return EXIT_FAILURE;
     }
     window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
-
+    
     // Load a sprite to display
     sf::Texture texture;
     if (!texture.loadFromFile(resourcePath() + "cute_image.jpg")) {
@@ -44,8 +44,8 @@ int main(int, char const**)
     if (!font.loadFromFile(resourcePath() + "sansation.ttf")) {
         return EXIT_FAILURE;
     }
-    sf::Text text("Just a thick-ass boy", font, 50);
-    text.setColor(sf::Color::Black);
+//    sf::Text text("Just a thick-ass boy", font, 50);
+//    text.setColor(sf::Color::Black);
 
     // Load a music to play
     sf::Music music;
@@ -81,7 +81,7 @@ int main(int, char const**)
         window.draw(sprite);
 
         // Draw the string
-        window.draw(text);
+        //window.draw(text);
 
         // Update the window
         window.display();
