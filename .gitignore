@@ -20,5 +20,6 @@
 *.out
 *.app
 
-#Project Files
+# Project Files
 *.xcodeproj/*
+*.plist
