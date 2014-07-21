@@ -21,4 +21,4 @@
 *.app
 
 #Project Files
-*.xcodeproj
+*.xcodeproj/*
