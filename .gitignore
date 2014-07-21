@@ -23,3 +23,6 @@
 # Project Files
 *.xcodeproj/*
 *.plist
+
+# Random Stuff
+.DS_Store
